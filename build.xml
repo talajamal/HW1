@@ -1,5 +1,5 @@
 <project default="compile">
-<property name ="src.java.dir" location="./src/Sources"/>
+<property name ="src.java.dir" location="./src/Code"/>
 <property name ="src.test.dir" location="./src/Test"/>
 <property name ="result.dir" location="./target"/>
 <property name ="result.javaclasses.dir" location="${result.dir}/classes"/>
@@ -20,9 +20,9 @@
 
 
 <path id="NecessaryLibraries">
-        <pathelement location="./UsedLibraries/junit-4.12.jar"/>
+        <pathelement location="./Libraries/junit-4.12.jar"/>
         <!--matcher-->
-        <pathelement location="./UsedLibraries/hamcrest-core-1.3.jar"/>
+        <pathelement location="./Libraries/hamcrest-core-1.3.jar"/>
     </path>
     
         
